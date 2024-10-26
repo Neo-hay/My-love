@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  background-color: #2b2d42;
+  color: #edf2f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-heart {
+  font-size: 60px;
+  color: #ff006e;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.main-heart:hover {
+  transform: scale(1.2);
+}
+
+.hidden {
+  display: none;
+}
+
+#mainImage img {
+  max-width: 80%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.timeline {
+  margin-top: 30px;
+}
+
+.small-heart {
+  font-size: 30px;
+  color: #ff006e;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#timelineImage img {
+  max-width: 50%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
